@@ -3,8 +3,8 @@
   <head>
     <title>Els sons del Bunquer icon (Pere Grau - pgrau1969@gmail.com)</title>	
     <link rel = "icon" href = "logo.png" type = "image/x-icon">          
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+	
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
 
@@ -15,6 +15,8 @@
 		background-repeat: repeat; 
 	}
 
+
+	
 <!-- Comments here -->
 
 </style>
@@ -52,6 +54,14 @@
 		 else if (boto== "morse")      	   audio = document.getElementById("morse");			 
 		 else if (boto== "forat")      	   audio = document.getElementById("forat");			 		 
 		 else if (boto== "gencat")         audio = document.getElementById("gencat");				 
+		 
+		 else if (boto== "latigofuet")         audio = document.getElementById("latigofuet");			
+		 else if (boto== "trenvapor")         audio = document.getElementById("trenvapor");			
+		 else if (boto== "fuerafuera")         audio = document.getElementById("fuerafuera");			
+		 else if (boto== "water")         audio = document.getElementById("water");			
+		 else if (boto== "campanescasament")         audio = document.getElementById("campanescasament");			
+		 else if (boto== "alarmanuclear")         audio = document.getElementById("alarmanuclear");			
+		 else if (boto== "notinguitotselsjugadorsalcamp")         audio = document.getElementById("notinguitotselsjugadorsalcamp");			
 		 else
 										   audio = document.getElementById("marededeu");
         audio.play();
@@ -112,6 +122,20 @@
     <td><button type="button"  onclick="play('forat')">       		<img src="imatges\forat.png" 			height ="150" width="150" /></button>      <audio id="forat"   			src="sons\forat.mp3"></audio></td>		
     </tr>					
 
+	<tr> 
+    <td><button type="button"  onclick="play('latigofuet')">          		<img src="imatges\latigofuet.png" 				height ="150" width="150" /></button>      <audio id="latigofuet"   			src="sons\latigofuet.mp3"></audio></td>
+    <td><button type="button"  onclick="play('trenvapor')">         <img src="imatges\trenvapor.png" 		height ="150" width="150" /></button>      <audio id="trenvapor"   		src="sons\trenvapor.mp3"></audio></td>	
+    <td><button type="button"  onclick="play('fuerafuera')">       		<img src="imatges\fuerafuera.png" 			height ="150" width="150" /></button>      <audio id="fuerafuera"   			src="sons\fuerafuera.mp3"></audio></td>		
+    </tr>					
+	<tr> 
+    <td><button type="button"  onclick="play('water')">          		<img src="imatges\water.png" 				height ="150" width="150" /></button>      <audio id="water"   			src="sons\water.mp3"></audio></td>
+    <td><button type="button"  onclick="play('campanescasament')">         <img src="imatges\campanescasament.png" 		height ="150" width="150" /></button>      <audio id="campanescasament"   		src="sons\campanescasament.mp3"></audio></td>	
+    <td><button type="button"  onclick="play('alarmanuclear')">       		<img src="imatges\alarmanuclear.png" 			height ="150" width="150" /></button>      <audio id="alarmanuclear"   			src="sons\alarmanuclear.mp3"></audio></td>		
+    </tr>					
+
+	<tr> 
+    <td><button type="button"  onclick="play('notinguitotselsjugadorsalcamp')">          		<img src="imatges\notinguitotselsjugadorsalcamp.png" 				height ="150" width="150" /></button>      <audio id="notinguitotselsjugadorsalcamp"   			src="sons\notinguitotselsjugadorsalcamp.mp3"></audio></td>
+    </tr>					
 	
 
 	</table>
